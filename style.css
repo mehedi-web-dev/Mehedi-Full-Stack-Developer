@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque";
+}
+body{
+ background-color:
+     rgba(4, 7, 15, 1)
+}
+header{
+  border-bottom: 1px solid rgba(38, 41, 47, 1);
+  position: sticky;
+  top: 0px;
+}
+.header-container{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+justify-content:space-between;
+align-items: center;
+padding:15px 0px;
+}
+.logo h4{
+font-size: 30px;
+font-weight: 600;
+color: white;
+}
+.hero-btn{
+  display: flex;
+  gap: 20px;
+}
+.comonbtn{
+  padding: 10px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color:rgba(112, 99, 254, 1);
+  border-radius: 99px;
+  text-decoration: none;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+nav ul li a:hover{
+  color: rgba(112, 99, 254, 1);
+}
+/* header end */
+
+.hero-parent{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+justify-content:space-between;
+align-items: center;
+gap: 20px;
+padding: 70px 0px;
+}
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hero-left h5{
+  color: #9598a0;
+  padding: 8px 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 99px;
+border: 1px solid  rgba(38, 41, 47, 1);
+width: fit-content;
+}
+.hero-left h1{
+  color:#f4f5f7;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.hero-left h1 span{
+  color:rgba(112, 99, 254, 1) ;
+}
+.hero-left p,.comon-p{
+  color: #9598a0;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.second-btn{padding: 9px 27px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border: 1px solid rgba(38, 41, 47, 1);
+  background-color:rgba(20, 22, 26, 1);
+  border-radius: 99px;
+  text-decoration: none;
+
+}
+.second-btn:hover{
+  border: 1px solid rgba(112, 99, 254, 1)  ;
+}
+
+.hero-right{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.hero-right img{
+  width: 80%;
+  border-radius:15px ;
+
+}
+
+/* hero end */
