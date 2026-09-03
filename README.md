@@ -14,7 +14,7 @@ The portfolio highlights my journey from WordPress development toward Full-Stack
 
 ## 📸 Screenshot
 
-![Mehedi.dev Portfolio Screenshot](./image/mehedi2.png)
+![Mehedi.dev Portfolio Screenshot](./image/mehedi(2).png)
 
 ---
 
